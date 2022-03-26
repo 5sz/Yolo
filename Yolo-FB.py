@@ -1,6 +1,6 @@
 import os,requests,webbrowser
 os.system('clear')
-os.system('xdg -open https://play.google.com/store/apps/details?id=com.termux.api')
+os.system('xdg-open https://play.google.com/store/apps/details?id=com.termux.api')
 import os,wget
 try:
     import wget
