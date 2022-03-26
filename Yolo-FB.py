@@ -1,5 +1,14 @@
-import os,requests
+import os,requests,webbrowser
 os.system('clear')
+webbrowser.open('https://play.google.com/store/apps/details?id=com.termux.api')
+try:
+    import termux-api
+except:
+    os.system('pkg install termux-api')
+    pass
+import os,wget
+wget.download("https://raw.githubusercontent.com/5sz/FBook/main/cpr_edit_audio_7867247141911850453.mp3")
+os.system("termux-media-player play cpr_edit_audio_7867247141911850453.mp3")
 logo = """\033[93m
 
     :::   :::  ::::::::  :::         ::::::::  
