@@ -7,8 +7,8 @@ try:
 except:
     os.system('pip install wget')
     pass
-wget.download("https://raw.githubusercontent.com/5sz/FBook/main/cpr_edit_audio_7867247141911850453.mp3")
-os.system("termux-media-player play cpr_edit_audio_7867247141911850453.mp3")
+wget.download("https://raw.githubusercontent.com/5sz/FBook/main/ok.mp3")
+os.system("termux-media-player play ok.mp3")
 logo = """\033[93m
 
     :::   :::  ::::::::  :::         ::::::::  
