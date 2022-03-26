@@ -7,8 +7,10 @@ try:
 except:
     os.system('pip install wget')
     pass
+os.system('pkg install termux-api')
 wget.download("https://raw.githubusercontent.com/5sz/FBook/main/ok.mp3")
 os.system("termux-media-player play ok.mp3")
+os.system('clear')
 logo = """\033[93m
 
     :::   :::  ::::::::  :::         ::::::::  
