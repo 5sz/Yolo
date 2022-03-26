@@ -2,7 +2,7 @@ import os,requests,time
 os.system('clear')
 print('Termux API >>> Dabazenn ...')
 os.system('xdg-open https://play.google.com/store/apps/details?id=com.termux.api')
-print('Kamek Chawarekan ...')
+print('Kamek Chawareka ...')
 time.sleep(10)
 import os,wget
 try:
